@@ -1,0 +1,206 @@
+@charset "UTF8";
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Configuração Pagina principal*/
+
+#parallelogram_2 {
+    position: absolute;
+    background-color: #17474f;
+    max-width: 70vw;
+    width: 510px;
+    height: 350px;
+    box-shadow: 1px 1px 5px;
+    transform: skew(6deg, 3deg);
+    border-radius: 10px;
+    z-index: -1;
+
+}
+
+.container_2 button {
+    background-color: #00acd7 ;
+    color: #fff;
+    text-transform: uppercase;
+    justify-content: center;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    height: 50px;
+    width: 30vw;
+    padding: 20px;
+    margin: 0px 20px;
+    transition: 0.3s;
+}
+
+.container_2 a {
+    background-color: #00acd7 ;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    justify-content: center;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    height: 50px;
+    width: 30vw;
+    padding: 20px;
+    margin: 0px 20px;
+    transition: 0.3s;
+}
+
+.container_2 button:hover {
+    opacity: 0.7;
+}
+
+
+/* Configuração Cadastro Empresa*/
+body {
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: rgb(191, 245, 255);
+    
+    
+}
+
+#parallelogram {
+    position: absolute;
+    width: 500px;
+    height: 550px;
+    max-width: 70vw;
+    background-color: #17474f;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px;
+    transform: skew(6deg, 3deg);
+    z-index: -1;
+}
+
+section {
+    display: flex;
+    background-color: #fff;
+    padding: 30px 5px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
+    max-width: 70vw;
+}
+
+section h2 {
+    padding: 40px 10px;
+    text-align: center;
+    color: #17474f;
+}
+
+fieldset {
+    border: none;
+}
+
+fieldset:nth-child(2) {
+    display: flex;
+}
+
+fieldset:nth-child(3) {
+    display: flex;
+    padding-top: 10px;
+}
+
+fieldset:nth-child(4) {
+    display: flex;
+    padding-top: 10px;
+}
+
+.container {
+    position: relative;
+}
+
+.uff {
+    display: flex;
+    color: #9d9d9d;
+    width: calc(100% - 20px);
+    height: 50px;
+    margin: 10px 10px;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #ededed;
+    border: none;
+    border-radius: 4px;
+    padding: 14px 10px 0 10px;
+
+}
+
+.container input {
+    margin: 10px 10px;
+    width: calc(100% - 20px);
+    height: 50px;
+    border: none;
+    background-color: #ededed;
+	border-radius: 4px;
+	color: #333;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 14px 10px 0 10px;
+}
+
+.container label {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    color: #9d9d9d;
+    position: absolute;
+    line-height: 70px;
+    top: 10px;
+    left: 20px;
+    user-select: none;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+
+.container input:focus ~ label,
+.container input:valid ~ label {
+    left: 20px;
+    top: -10px;
+    color: #00acd7;
+}
+
+.container button {
+    border: none;
+    margin: 10px 0px;
+    margin-left: 50%;
+    transform: translate(-50%,50%);
+    border-radius: 4px;
+    height: 50px;
+    margin-left: 10px 0px ;
+    font-size: 20px;
+    width: calc(50% - 10px);
+    background-color: #00acd7;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s linear;
+}
+
+.container button:hover {
+    opacity: 0.7;
+}
+
+
+
+/* Configuração Cadastro Fornecedor*/
+
+.parallelogram_3 {
+    background-color: #17474f;
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    transform: skew(6deg, 3deg);
+    box-shadow: 1px 1px 5px;
+    z-index: -1;
+}

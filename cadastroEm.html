@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css"  href="style.css">
+        <title>Listagem de empresas</title>
+
+    </head>
+    <body>
+        <div id="parallelogram"></div>
+        <section>
+            <form action="#" method="POST">
+                <h2>Cadastro de Empresa</h2>
+                <fieldset>
+                    <div class="container">
+                        <input type="text" required name="nome" autofocus>
+                        <label>Nome</label>
+                    </div>
+                    <div class="container">
+                        <input type="text" required name="cnpj">
+                        <label>CNPJ</label>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <div class="container">
+                        <input type="text" required name="endereço">
+                        <label>Endereço</label>
+                    </div>
+                    <div class="container">
+                        <input type="text" required name="numero">
+                        <label>Número</label>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <div class="container">
+                        <input type="text" required name="cidade">
+                        <label>Cidade</label>
+                    </div>
+                    <div class="container">
+                        <select required name="estados_brasil" class="uff">
+                            <option value="AC">Acre</option>
+                            <option value="AL">Alagoas</option>
+                            <option value="AP">Amapá</option>
+                            <option value="AM">Amazonas</option>
+                            <option value="BA">Bahia</option>
+                            <option value="CE">Ceará</option>
+                            <option value="DF">Distrito Federal</option>
+                            <option value="ES">Espírito Santo</option>
+                            <option value="GO">Goiás</option>
+                            <option value="MA">Maranhão</option>
+                            <option value="MT">Mato Grosso</option>
+                            <option value="MS">Mato Grosso do Sul</option>
+                            <option value="MG">Minas Gerais</option>
+                            <option value="PA">Pará</option>
+                            <option value="PB">Paraíba</option>
+                            <option value="PR">Paraná</option>
+                            <option value="PE">Pernambuco</option>
+                            <option value="PI">Piauí</option>
+                            <option value="RJ">Rio de Janeiro</option>
+                            <option value="RN">Rio Grande do Norte</option>
+                            <option value="RS">Rio Grande do Sul</option>
+                            <option value="RO">Rondônia</option>
+                            <option value="RR">Roraima</option>
+                            <option value="SC">Santa Catarina</option>
+                            <option value="SP">São Paulo</option>
+                            <option value="SE">Sergipe</option>
+                            <option value="TO">Tocantins</option>
+                        </select>
+                    </div>
+                </fieldset>
+                <div class="container">
+                    <button name="submit">Cadastrar</button>
+                </div>
+            </form>
+        </section>
+
+    </body>
+</html>
